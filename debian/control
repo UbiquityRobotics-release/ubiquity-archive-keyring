@@ -1,0 +1,12 @@
+Source: ubiquity-archive-keyring
+Maintainer: Rohan Agrawal <ra@ubiquityrobotics.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 9), gnupg
+
+Package: ubiquity-archive-keyring
+Architecture: all
+Depends: ${misc:Depends}
+Description: Keys used to sign the Ubiquity Robotics package repositories.
+
